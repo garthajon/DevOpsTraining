@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_source
+    schema: staging
+    description: snowflake staging layer
+
+    tables:
+      - name: sales
+        description: stores sales staging database
